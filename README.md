@@ -1,2 +1,2 @@
 # InSeong-So.github.io
-Personal Technology Blog
+https://inseong-so.github.io/

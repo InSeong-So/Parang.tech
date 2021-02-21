@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "현파랑"
 description              : "개발자가 세상을 구한다"
-url                      : "https://dhttps://inseong-so.github.io/"
+url                      : "https://inseong-so.github.io"
 baseurl                  : # 서브 경로가 있는 경우 기재
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/img/2020-10-25.jpg"
@@ -51,6 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -84,11 +85,11 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-134677596-2"
-    anonymize_ip         : # true, false (default)
+#analytics:
+#  provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id          : "UA-134677596-2"
+#    anonymize_ip         : # true, false (default)
 
 # Site Author
 author:
@@ -101,43 +102,16 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:goflvhxj2547@naver.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://https://inseong-so.github.io/"
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-    #  # url: "https://twitter.com/"
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-    #  # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/inseong-so"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    #- label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-    #  # url:
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-    #  # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/inseong-so"
-    #- label: "GitLab"
-    #  icon: "fab fa-fw fa-gitlab"
-    #  # url:
-    #- label: "Bitbucket"
-    #  icon: "fab fa-fw fa-bitbucket"
-    #  # url:
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  # url:
 
 
 # Reading Files
@@ -208,7 +182,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정
 paginate_path: /page:num/
-timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)

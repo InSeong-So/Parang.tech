@@ -4,6 +4,6 @@ permalink: /about/
 layout: single
 ---
 
-## inseongSo.github.io 블로그
+## 개발자가 세상을 구한다
 
 주니어 개발자의 블로그.

@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "소개"
+    url: /about/
+  - title: "전체 글"
+    url: /categories/
+  - title: "IT-Note"
+    url: /categories/IT_Note/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "Resume"
+  #   url: https://inseong-so.github.io/new-resume/

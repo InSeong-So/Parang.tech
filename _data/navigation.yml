@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "전체 글"
     url: /categories/
-  - title: "IT-Note"
-    url: /categories/IT_Note/
+  - title: "IT노트"
+    url: /categories/IT-Note/
   # - title: "Tags"
   #   url: /tags/
   # - title: "Resume"

@@ -5,7 +5,7 @@ main:
   - title: "전체 글"
     url: /categories/
   - title: "IT노트"
-    url: /categories/IT-Note/
+    url: /categories/IT-Note-Intro/
   # - title: "Tags"
   #   url: /tags/
   # - title: "Resume"

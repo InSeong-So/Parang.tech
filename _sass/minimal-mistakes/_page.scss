@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  // padding-left: 0.5em;
+  // padding-right: 0.5em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -83,11 +83,6 @@ body {
 }
 
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
-  }
-
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
 			position: relative;
@@ -104,6 +99,14 @@ body {
 			opacity: 1;
 		}
 	}
+  
+  h3 {
+    color:#2e8ad1;
+  }
+  
+  h4 {
+    color:#33b06f;
+  }
 
   p,
   li,

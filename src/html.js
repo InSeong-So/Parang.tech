@@ -18,6 +18,7 @@ export default class HTML extends React.Component {
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
+          <meta name="google-site-verification" content="qfJ0X9_TugooCM-NPDE9_yN3w-JwI-xiXnPF9cOa5AU" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

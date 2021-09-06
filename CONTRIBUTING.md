@@ -25,7 +25,7 @@ $ git commit [...]
 $ git push origin [YOUR_REPOSITORY]
 
 # Enroll pull-request!
-# in https://github.com/InSeong-So/Parang.io
+# in https://github.com/InSeong-So/Parang.tech
 ```
 
 ## Commit message rules

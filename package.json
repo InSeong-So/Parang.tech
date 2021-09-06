@@ -71,7 +71,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InSeong-So/Parang.io.git"
+    "url": "git+https://github.com/InSeong-So/parang.tech.git"
   },
   "scripts": {
     "post": "gatsby-post-gen",

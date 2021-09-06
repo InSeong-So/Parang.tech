@@ -16,9 +16,9 @@ module.exports = {
   icon: `content/assets/felog.png`, // Add your favicon
   thumbnail: `https://parang.io/parang-io.png`,
   resume: {
-    title: 'About Jbee',
+    title: 'About InSeong-So',
     description: 'docs: Update RESUME.md for introducing myself',
-    thumbnail: 'https://jbee.io/about_thumbnail.png',
+    thumbnail: 'https://parang.io/about_thumbnail.png',
   },
   keywords: [
     `blog`,

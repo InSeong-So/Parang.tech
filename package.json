@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "blog",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "InSeong-So's Blog",
   "version": "0.1.0",
   "author": "InSeong-So[InSeong-So]<goflvhxj2547@gmail.com>",
   "dependencies": {

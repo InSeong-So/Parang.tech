@@ -24,7 +24,9 @@ export function destroy() {
 export function go(dest) {
   if (!scroll) throw Error('Not founded SmoothScroll instance')
 
-  scroll.animateScroll(dest)
+  if (dest < window.scrollY) {
+    scroll.animateScroll(dest)
+  }
 
   return scroll
 }

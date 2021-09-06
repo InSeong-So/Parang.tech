@@ -7,14 +7,9 @@ const DEST_POS = 316
 
 export function useCategory() {
   const [category, setCategory] = useState(CATEGORY_TYPE.ALL)
-  const adjustScroll = () => {
-    if (window.scrollY > DEST_POS) {
-      ScrollManager.go(DEST_POS)
-    }
-  }
-  const selectCategory = useCallback(category => {
+  const selectCategory = useCallback((category) => {
     setCategory(category)
-    adjustScroll()
+    ScrollManager.go(DEST_POS)
     window.history.pushState(
       { category },
       '',
@@ -26,9 +21,7 @@ export function useCategory() {
     const target = category == null ? CATEGORY_TYPE.ALL : category
 
     setCategory(target)
-    if (withScroll) {
-      adjustScroll()
-    }
+    withScroll && ScrollManager.go(DEST_POS)
   }, [])
 
   useEffect(() => {

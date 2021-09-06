@@ -13,11 +13,11 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"
           />
           {this.props.headComponents}
-          <script
+          {/* <script
             data-ad-client="ca-pub-7348753832160730"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
+          ></script> */}
           <meta name="google-site-verification" content="qfJ0X9_TugooCM-NPDE9_yN3w-JwI-xiXnPF9cOa5AU" />
         </head>
         <body {...this.props.bodyAttributes}>

@@ -7,10 +7,10 @@ module.exports = {
   siteUrl: `https://parang.tech`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/${name}`, // Your GitHub account
+    github: `${name}`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
-    linkedin: `https://www.linkedin.com/in/in-seong/`, // Your LinkedIn account
+    linkedin: `in-seong`, // Your LinkedIn account
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon

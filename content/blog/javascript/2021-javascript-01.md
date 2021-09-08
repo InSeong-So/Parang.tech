@@ -2,7 +2,7 @@
 title: 자바스크립트 엔진의 기본
 date: 2021-09-08 15:09:25
 category: javascript
-thumbnail: './images/2021-javascript-01-01.png'
+thumbnail: './images/2021-javascript-01-01.jpg'
 draft: false
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 들어가기 앞서
+title: 알고리즘, 들어가기 앞서
 date: 2021-09-19 19:09:99
 category: algorithm
 thumbnail: './images/javascript.png'

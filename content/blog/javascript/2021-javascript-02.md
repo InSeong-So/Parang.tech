@@ -2,7 +2,7 @@
 title: 가상 DOM을 이해하고 diff 알고리즘 구현하기
 date: 2021-10-01 13:02:32
 category: javascript
-thumbnail: './images/2021-javascript-01-01.jpg'
+thumbnail: './images/base/javascript.png'
 draft: false
 ---
 

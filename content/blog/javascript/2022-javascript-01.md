@@ -1,5 +1,5 @@
 ---
-title: [번역] 반응형 프로그래밍(Reactive Programming)
+title: "[번역] 반응형 프로그래밍(Reactive Programming)"
 date: 2022-02-05 17:18:34
 category: javascript
 thumbnail: './images/base/javascript.png'

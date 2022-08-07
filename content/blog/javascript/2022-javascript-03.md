@@ -12,7 +12,7 @@ draft: false
 1편은 "기본 기능 구현"입니다. HTML/CSS, 전반적인 세팅은 신경쓰지 마세요. 여러분은 오롯이 자바스크립트로 로직만 작성해주세요!
 
 # 실습 준비
-> [저장소 위치](https://github.com/FECrash/vanilla-catstagram)
+> [저장소 위치](https://github.com/FECrash/vanilla-catstagram/tree/60dc58e126fe52d9dd32b753d597ff8f9bb6559e)
 
 ## 실행 순서
 
@@ -23,10 +23,13 @@ git clone https://github.com/FECrash/vanilla-catstagram.git
 # 2. 클론한 프로젝트로 이동
 cd vanilla-catstragram
 
-# 3. 의존성 설치
+# 3. 프로젝트 브런치 변경
+git checkout step-01
+
+# 4. 의존성 설치
 npm install
 
-# 4. 실행
+# 5. 실행
 npm run dev
 ```
 
@@ -73,7 +76,7 @@ npm run dev
 
 사전에 10번 정도를 fetch한 뒤 해당 url을 주입하여 우리에게 친숙한 문자열 템플릿을 통해 고양이 카드들을 그려보도록 합시다.
 
-- [**소스 보기**](https://github.com/FECrash/vanilla-catstagram/tree/577e2b66c185c09279c704c1fdd506f22dacd120)
+- [**소스 보기**](https://github.com/FECrash/vanilla-catstagram/tree/step-02)
 
 ```js
 const $container = document.querySelector('.container');
@@ -132,7 +135,7 @@ for (let i = 10; i > 0; i--) {
 
 이걸 `Promise.all`을 사용하여 해결해 봅시다.
 
-- [**소스 보기**](https://github.com/FECrash/vanilla-catstagram/tree/f5255a619eb448a26c174600f0b46c8ed4a78c90)
+- [**소스 보기**](https://github.com/FECrash/vanilla-catstagram/tree/step-03)
 
 ```js
 const $container = document.querySelector('.container');
